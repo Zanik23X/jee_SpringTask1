@@ -30,13 +30,13 @@ public class HomeProcessServlet extends HttpServlet {
         String description = request.getParameter("task_description");
 
 
-        Tasks footballer = new Tasks();
-        footballer.setName(name);
-        footballer.setDeadlineDate(deadline);
-        footballer.setDescription(description);
+        Tasks task = new Tasks();
+        task.setName(name);
+        task.setDeadlineDate(deadline);
+        task.setDescription(description);
 
 
-        DBManager.addTask(footballer);
+        DBManager.addTask(task);
         response.sendRedirect("/tasks");
     }
 }
