@@ -128,8 +128,8 @@
                                    Ты удаляешь?
                                 </div>
                                 <div class="modal-footer">
-                                    <button  class="btn btn-danger" >Да</button>
-                                    <button  class="btn btn-primary">Нет</button>
+                                    <button  class="btn btn-danger" >Yes</button>
+                                    <button  class="btn btn-primary">NO</button>
                                 </div>
                             </form>
                         </div>
